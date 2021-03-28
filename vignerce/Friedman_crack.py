@@ -53,7 +53,7 @@ class Friedman_crack:
         return key_length
 
     def get_cihper_type(self):
-        if 0.0385 <= self.ic < 0.065 and self.key_length > 3:
+        if 0.0385 <= self.ic < 0.065 and self.key_length > 1:
             print("its most likely a polyalphapetic cipher")
         else:
             print("its most likely a monoalphapetic cipher")
