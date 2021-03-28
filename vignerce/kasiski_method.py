@@ -31,13 +31,13 @@ letterFrequency = {
 
 def get_concidences_list(message):
     """
-    crate shifted messages from each message and in each shited message compare the positions of the
+    create shifted messages from each message and in each shited message compare the positions of the
     letters to the original cipher and if it match increament the concidences by 1
     e.x message-> iloveyou
                    iloveyo
                     ilovey
                     ...
-    so in the first shifted message we comapre (l,i) (o,l) (v,o) (e,v) .... in if letter in the original message
+    so in the first shifted message we comapre (l,i) (o,l) (v,o) (e,v) .... and if letter in the original message
     match with letter in the shifted text we increament the concidence by 1
     """
     concidences = list()
