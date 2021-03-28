@@ -1,7 +1,3 @@
-Copyright © 2021 Elshe2
-
-
-
 """
 1- calculte index of concidence (IC)
     sum(fi*(fi-1))/N(N-1)
