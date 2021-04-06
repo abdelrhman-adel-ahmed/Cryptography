@@ -1,5 +1,5 @@
 #this is sepecial version of polybiusCipher wich has no z and its transposed (rows become column)
-polybiusCipherEncrypt(s):
+def polybiusCipherEncrypt(s):
     encrypt = ""
     # convert each character to its encrypted code
     for char in s:
