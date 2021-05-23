@@ -16,8 +16,9 @@
 r0 = 973
 r1 = 321
 
-def gcd1(a, b):
-    if b == 0:
-        return a
+def gcd(r0, r1):
+    if r0 == 0:
+        return r1
 
-    return gcd1(b, a % b)
+    return gcd(r1 % r0, r0)
+
