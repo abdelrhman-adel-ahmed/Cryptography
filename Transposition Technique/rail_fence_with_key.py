@@ -55,7 +55,6 @@ def decrypt(cipher_text, key):
             row += 1
         else:
             row -= 1
-    print(rail)
     index = 0
     # now we replace the dummy with the coressponding char
     for i in range(key):
@@ -66,7 +65,6 @@ def decrypt(cipher_text, key):
 
     # read the rail in zig zag way
     result = []
-    print(rail)
     #beacuse the last direction above will be true (when we enter the last char 
     # [0][len(text)-1] position row == 0 and the direction is false from last time 
     # so it will be true)
