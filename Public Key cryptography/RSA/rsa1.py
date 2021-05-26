@@ -13,7 +13,7 @@ for i in range(1, euler_totient + 1):
 g, s, t = gcdExtended(e, euler_totient)
 # decryption key
 d = t
-# choose another d from the same class of equivelnce
+# choose another d from the same class of equivalence
 for i in range(1, 12):
     if ((i * d) * e % euler_totient) == 1:
         d = i
